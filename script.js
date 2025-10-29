@@ -16,9 +16,9 @@ const treeTemplate = [
 
 // Lyrics list — now each line has a custom "time" (in milliseconds)
 const lyrics = [
-    { text: "♪ A face on a lover ♪", time: 3000 },
-    { text: "♪ With a fire in his heart ♪", time: 3000 },
-    { text: "♪ A man uundercover ♪", time: 2000 },
+    { text: "♪ A face on a lover ♪", time: 2000 },
+    { text: "♪ With a fire in his heart ♪", time: 2000 },
+    { text: "♪ A man undercover ♪", time: 2000 },
     { text: "♪ BUT YOU TORE ME APART ♪", time: 5000 }
 ];
 
@@ -65,4 +65,3 @@ setInterval(renderTree, 300); // Twinkle every 0.3s
 // Start the loop
 renderTree();
 showNextLyric();
-
